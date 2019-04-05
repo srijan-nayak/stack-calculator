@@ -1,6 +1,6 @@
 prompt_input = ''
 operand_stack = []
-operators = {'+', '-', '*', '/', '//', '%', '**'}
+operators = {'+', '-', '*', '/', '//', '%', '^'}
 
 
 def operate_with(prompt_input):
@@ -19,7 +19,7 @@ def operate_with(prompt_input):
         result = operand1 // operand2
     elif prompt_input == '%':
         result = operand1 % operand2
-    elif prompt_input == '**':
+    elif prompt_input == '^':
         result = operand1 ** operand2
     operand_stack.append(result)
 
