@@ -2,6 +2,8 @@
 
 A simple stack based calculator written in python.
 
+![stack-calculator-screenshot][screenshot]
+
 ## Supported operations with their operator input
 
 * Add : +
@@ -11,3 +13,5 @@ A simple stack based calculator written in python.
 * Integer (floor) division: //
 * Remainder (modulus): %
 * Exponent : ^
+
+[screenshot]: images/stack-calculator-screenshot.png
